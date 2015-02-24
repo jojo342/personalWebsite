@@ -1,0 +1,131 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a h1{/* the "What I Do" text*/
+	color: #262730;
+	cursor: default;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgba(0, 0, 0, 0);
+}
+
+a:active{
+	text-decoration: none;
+}
+
+.about, .aboutMe{
+	background-color: #262730;
+	color: #F9EAE1;
+}
+.center, footer{
+	text-align: center;
+	position: relative;
+	text-overflow: hidden;
+	position: static;
+}
+
+.c1{
+	display: block;
+	text-align: left;
+	font-weight: bold;
+}
+
+.c2{
+	display: inline-block;
+	font-size: 15px;
+	
+}
+
+.c2 a{
+	color: #F9EAE1;
+	padding:5px 5px 5px 0px;
+	
+}
+
+.contactMe, .contact{
+	background-color: #5D2E46;
+	color: #F9EAE1;
+}
+
+footer{
+	background-color: #AD6A6C;
+	color: #F9EAE1;
+}
+
+header{
+    background-color: #262730;
+	border-bottom: 15px solid #5D2E46;
+    color: #F9EAE1;
+    display: inline-block;
+	font-family: century gothic;
+	position: fixed;/*This is the issue!*/
+    padding: 20px;
+	width:100%;
+}
+
+.job{
+	background-color: #D0ADA7;
+	position: static;
+}
+
+
+.logo{
+	font-size: 40px;
+}
+
+.name{
+	background-color: #AD6A6C;
+	border-top:250px solid #5D2E46;
+	/*background-image: url("");
+	background-position: center;
+	background-size: cover;*/
+	height: 800px;
+	position: static;/*This might be the solution*/
+	width: 100%;
+
+}
+
+.name h1, .name h4{
+	color:white;
+	font-family: Century Gothic;
+	/*position: relative;*/
+	position: static;
+}
+
+.name h1{
+	font-size: 50px;
+}
+
+.name h4{
+	font-size: 25px
+}
+
+.pic{
+	background-image: url("https://36.media.tumblr.com/000e113238c6019ac4bbbfe91f073f8c/tumblr_nk8sc4m3OE1tumtzlo1_250.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 5px solid #262730;
+	border-radius: 15px;
+	box-shadow: 0 0 0 8px #5D2E46 ;
+	height: 250px;
+	margin: auto;
+	margin-top: 30px;
+	width:200px;
+}
+
+.price{
+	background-color: #F9EAE1;
+}
